@@ -3,7 +3,8 @@ class Add{
 	void add(int a,int b,int c) {
 		System.out.println("The adition is "+(a+b+c));
 	}
-	int add (int a,int b) {
+	int add (int a,int b) {//in overrriding it is not possible
+		
 		return a+b;
 	}
 }
